@@ -6,6 +6,12 @@
 
 A modern and feature-rich weather application for Android, built with Kotlin, leveraging a clean architecture and modern Android development practices. This app provides current weather conditions, hourly forecasts, and extended forecasts for the next seven days.
 
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/a8ddba2d-dab3-4590-b58b-03546cb66c5b" width="300" alt="WeatherApp-pic1" style="margin-right: 20px;">
+  <img src="https://github.com/user-attachments/assets/8019fa37-cd47-4caf-9736-b8ed2ea9133b" width="300" alt="WeatherApp-pic2">
+</div>
+
+
 ## Key Features
 
 *   **Current Weather:** Displays current temperature, feels like temperature, conditions, rainfall, wind, and humidity for the user's current location or searched location.
