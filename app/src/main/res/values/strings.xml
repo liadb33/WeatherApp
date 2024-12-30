@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">WeatherApp</string>
+    <string name="date_main">Tue, Jun 30</string>
+    <string name="location_main">Stockholm, Sweden</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="action_search">action_search</string>
+    <string name="next_7_days">Next 7 Days</string>
+</resources>

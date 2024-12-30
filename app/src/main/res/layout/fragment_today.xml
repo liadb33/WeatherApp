@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.TodayFragment">
+
+
+    <com.facebook.shimmer.ShimmerFrameLayout
+        android:id="@+id/today_shimmer_layout"
+        android:layout_width="match_parent"
+        android:layout_height="110dp">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <include layout="@layout/forecast_item_shimmer"/>
+            <include layout="@layout/forecast_item_shimmer"/>
+            <include layout="@layout/forecast_item_shimmer"/>
+            <include layout="@layout/forecast_item_shimmer"/>
+            <include layout="@layout/forecast_item_shimmer"/>
+            <include layout="@layout/forecast_item_shimmer"/>
+            <include layout="@layout/forecast_item_shimmer"/>
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </com.facebook.shimmer.ShimmerFrameLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/fragment_LST_today"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:listitem="@layout/forecast_item"
+        android:visibility="gone">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+</RelativeLayout>
